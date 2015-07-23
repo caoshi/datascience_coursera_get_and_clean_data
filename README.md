@@ -32,5 +32,8 @@ You should create one R script called run_analysis.R that does the following.
 
 1. make sure these files are in your working directory: "X_train.txt", "y_train.txt","subject_train.txt", "X_test.txt", "y_test.txt", "subject_test.txt", "features.txt","activity_labels.txt"
 
-2. after run the program, you will get two txt files. The one with the name "final_output.txt" is for the tidy data set.
+2. I combind the train data and test data, filted data with mean and std required by the question. The x data was labeled according features and y data was labeled according activity data. Then the x, y data and subject data were used to generate a dataframe. Fianlly, the output contains all the mean data for activities and subjects. Other details can be found in the CodeBook.md in the same repo
+
+
+3. after run the program, you will get two txt files. The one with the name "final_output.txt" is for the tidy data set.
 
